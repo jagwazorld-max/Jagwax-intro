@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jagwax Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Jagwax Intro</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="friends.html">Friends</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Gallery</h2>
+    <p>Upload images or videos (local preview only). For permanent uploads, contact admin.</p>
+    <form id="galleryForm">
+      <input type="file" id="galleryInput" multiple accept="image/*,video/*">
+    </form>
+    <div id="galleryPreview" class="gallery-preview"></div>
+  </main>
+  <footer>
+    &copy; 2025 Jagwax Introduction
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

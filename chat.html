@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jagwax Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Jagwax Intro</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="friends.html">Friends</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Chat & Comments</h2>
+    <form id="chatForm">
+      <input type="text" id="chatName" placeholder="Your name" required>
+      <input type="text" id="chatMessage" placeholder="Type a message..." required>
+      <button type="submit">Send</button>
+    </form>
+    <div id="chatBox" class="chat-box"></div>
+    <p class="note">Note: This chat is local and resets if you reload the page. For real chat, contact admin.</p>
+  </main>
+  <footer>
+    &copy; 2025 Jagwax Introduction
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
